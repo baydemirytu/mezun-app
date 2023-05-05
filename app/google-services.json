@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "612766002988",
+    "project_id": "ytu-mezun-mobil",
+    "storage_bucket": "ytu-mezun-mobil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612766002988:android:665b1bd0bc67dace9f0689",
+        "android_client_info": {
+          "package_name": "com.mobil.mezun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612766002988-uonnda97f4qtlh17pnkva9gbhaq4q3o2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeDpukMrMSy_PkH248UJmo3L2SkijCKuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612766002988-uonnda97f4qtlh17pnkva9gbhaq4q3o2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

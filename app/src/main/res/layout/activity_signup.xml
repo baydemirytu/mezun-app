@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".view.LoginActivity"
+        android:orientation="vertical"
+        android:background="@drawable/stars"
+        android:baselineAligned="false">
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+    <TextView
+            android:text="Hoş Geldiniz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textAlignment="center"
+            android:textColor="#FBF3F3"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText" />
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:text="E-mail: "
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+
+        <EditText
+                android:layout_width="300dp"
+                android:layout_height="81dp"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/editTextTextEmailAddress"
+                android:background="#740C1930"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:hint="Enter Your Mail Adress"
+                android:textColorHint="#C5CEDA"
+                tools:ignore="HardcodedText"
+                android:importantForAutofill="no" />
+    </LinearLayout>
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="21dp" />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:text="Şifre: "
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+
+        <EditText
+                android:layout_width="300dp"
+                android:layout_height="81dp"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/editTextTextPassword"
+                android:background="#740C1930"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:hint="Enter Your Password"
+                android:textColorHint="#A2ACBA"
+                tools:ignore="HardcodedText"
+                android:importantForAutofill="no" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1" />
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:baselineAligned="false">
+
+            <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:ignore="NestedWeights" />
+
+            <Button
+                    android:text="Kayıt Ol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/signup"
+                    android:layout_weight="1"
+                    tools:ignore="HardcodedText" />
+
+            <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ytu_kapi"
+            android:id="@+id/imageView4"
+            android:scaleType="centerCrop"
+            android:contentDescription="ytu_kapi"
+            tools:ignore="HardcodedText" />
+
+</LinearLayout>
