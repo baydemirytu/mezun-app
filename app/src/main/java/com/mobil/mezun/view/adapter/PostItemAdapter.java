@@ -143,13 +143,12 @@ public class PostItemAdapter extends RecyclerView.Adapter<PostItemAdapter.PostIt
 
             postItemCardView.setOnClickListener(view -> {
 
-                int visibility = usernameOfPostText.getVisibility() == View.GONE ? View.VISIBLE : View.GONE;
-
-                TransitionManager.beginDelayedTransition( postItemCardView,new AutoTransition());
                 if(communicationButton != null){
+                    int visibility = communicationButton.getVisibility() == View.GONE ? View.VISIBLE : View.GONE;
+
+                    TransitionManager.beginDelayedTransition( postItemCardView,new AutoTransition());
                     communicationButton.setVisibility(visibility);
                 }
-                usernameOfPostText.setVisibility(visibility);
 
 
             });

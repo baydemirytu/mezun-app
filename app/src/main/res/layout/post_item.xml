@@ -22,14 +22,16 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                <ImageView
+                <TextView
+                        android:text="TextView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        tools:srcCompat="@tools:sample/avatars"
-                        android:id="@+id/imageViewPostItem"
-                        android:scaleType="centerCrop">
-
-                </ImageView>
+                        android:id="@+id/usernameOfPostText"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:visibility="visible"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/pacifico_regular" />
 
                 <TextView
                         android:layout_width="match_parent"
@@ -42,15 +44,14 @@
 
                 </TextView>
 
-                <TextView
-                        android:text="TextView"
+                <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/usernameOfPostText"
-                        android:textStyle="bold"
-                        android:textSize="16sp"
-                        android:visibility="gone"
-                        android:textAlignment="center" />
+                        tools:srcCompat="@tools:sample/avatars"
+                        android:id="@+id/imageViewPostItem"
+                        android:scaleType="centerCrop">
+
+                </ImageView>
 
                 <Button
                         android:text="İletişime Geç"
